@@ -10,6 +10,7 @@ import ExercisesPage from "@/pages/ExercisesPage";
 import ProblemPage from "@/pages/ProblemPage";
 import CompetitionsPage from "@/pages/CompetitionsPage";
 import ProgressPage from "@/pages/ProgressPage";
+import TutorialsPage from "@/pages/TutorialsPage";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/problem/:id" element={<ProblemPage />} />
             <Route path="/competitions" element={<CompetitionsPage />} />
             <Route path="/progress" element={<ProgressPage />} />
+            <Route path="/tutorials" element={<TutorialsPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>

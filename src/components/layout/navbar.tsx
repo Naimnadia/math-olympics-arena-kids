@@ -8,7 +8,8 @@ import {
   BarChart, 
   Star,
   MenuIcon,
-  X
+  X,
+  Youtube
 } from "lucide-react";
 import {
   Sheet,
@@ -44,6 +45,11 @@ export default function Navbar() {
       href: "/progress",
       icon: <BarChart className="h-4 w-4" />,
     },
+    {
+      label: "Réussir l'Olympiade",
+      href: "/tutorials",
+      icon: <Youtube className="h-4 w-4" />,
+    }
   ];
 
   const NavLinks = ({ className }: { className?: string }) => (

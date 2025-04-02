@@ -24,6 +24,9 @@ export default function Footer() {
           <Link to="/progress" className="hover:underline">
             Progression
           </Link>
+          <Link to="/tutorials" className="hover:underline">
+            Réussir l'Olympiade
+          </Link>
         </nav>
       </div>
     </footer>
