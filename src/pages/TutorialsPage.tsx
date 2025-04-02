@@ -2,7 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Youtube, BookOpen, LightbulbIcon, GraduationCap } from "lucide-react";
+import { Youtube, BookOpen, LightbulbIcon, GraduationCap, Trophy } from "lucide-react";
 
 export default function TutorialsPage() {
   return (
